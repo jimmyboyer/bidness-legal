@@ -5,17 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bidness – Terms of Service</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.7; }
-    h1 { font-size: 2em; margin-bottom: 4px; }
-    h2 { font-size: 1.2em; margin-top: 2em; }
-    p, li { font-size: 1em; color: #333; }
-    a { color: #0066cc; }
-    .updated { color: #888; font-size: 0.9em; margin-bottom: 2em; display: block; }
+    /* The app's palette: seashell page, black headings, charcoal text,
+       serif headings (New York on Apple devices). */
+    :root { color-scheme: light dark; --page: #FFF5EE; --ink: #000000; --text: #36454F; --muted: #5F6B73; --rule: #ECDCD0; --link: #000000; }
+    @media (prefers-color-scheme: dark) {
+      :root { --page: #000000; --ink: #FFF5EE; --text: #B7C2C9; --muted: #8A97A0; --rule: #232D33; --link: #89CFF0; }
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; background: var(--page); color: var(--ink); line-height: 1.7; }
+    h1, h2 { font-family: ui-serif, "New York", Georgia, serif; color: var(--ink); }
+    h1 { font-size: 2.2em; margin-bottom: 4px; }
+    h2 { font-size: 1.3em; margin-top: 2em; padding-top: 1.2em; border-top: 1px solid var(--rule); }
+    p, li { font-size: 1em; color: var(--text); }
+    a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .updated { color: var(--muted); font-size: 0.9em; margin-bottom: 2em; display: block; }
   </style>
 </head>
 <body>
   <h1>Terms of Service</h1>
-  <span class="updated">Last updated: June 11, 2026</span>
+  <span class="updated">Last updated: October 7, 2026</span>
 
   <p>These Terms of Service ("Terms") govern your use of the Bidness iOS app, operated by James Boyer, Waterloo, Ontario, Canada ("we", "us", "our"). By using Bidness you agree to these Terms.</p>
 
@@ -23,10 +30,10 @@
   <p>Bidness is a local marketplace where users can list items for auction, place bids, and complete transactions. We provide the platform; all transactions are between buyers and sellers.</p>
 
   <h2>2. Eligibility</h2>
-  <p>You must be at least 13 years old and capable of forming a binding contract to use Bidness. By using the app you confirm you meet these requirements.</p>
+  <p>You must be at least 18 years old, or the age of majority where you live, and capable of forming a binding contract to use Bidness. By using the app you confirm you meet these requirements.</p>
 
   <h2>3. Accounts</h2>
-  <p>You are responsible for maintaining the security of your account and all activity under it. Notify us immediately at <a href="mailto:support@bidness.app">support@bidness.app</a> if you suspect unauthorized use.</p>
+  <p>You are responsible for maintaining the security of your account and all activity under it. Notify us immediately at <a href="mailto:BidnessApp@outlook.com">BidnessApp@outlook.com</a> if you suspect unauthorized use.</p>
 
   <h2>4. Listings and Bidding</h2>
   <ul>
@@ -37,8 +44,8 @@
   </ul>
 
   <h2>5. In-App Purchases</h2>
-  <p><strong>Bidness Pro</strong> is an auto-renewable monthly subscription that unlocks unlimited active bids, auto-bid, price history, and other features. Subscriptions are billed through your Apple ID. You may cancel at any time in your Apple ID subscription settings. Cancellation takes effect at the end of the current billing period.</p>
-  <p><strong>Boost 24h</strong> is a one-time consumable purchase that promotes a listing for 24 hours. Boosts are non-refundable once applied.</p>
+  <p><strong>Bidness Pro</strong> is an auto-renewing subscription, monthly or yearly, with a 7-day free trial for new subscribers. It adds auto-bid, lets you lead up to 10 auctions at once (instead of 2) and keep up to 50 active listings (instead of 10), and unlocks price history, more saved searches, and set-price offers on unsold items. Payment is charged to your Apple ID when you confirm the purchase, or when the free trial ends. It renews automatically unless you turn off auto-renew at least 24 hours before the end of the current period; you can manage or cancel it in your Apple ID subscription settings. Cancellation takes effect at the end of the current billing period.</p>
+  <p><strong>Boost 24h</strong> is a one-time consumable purchase that promotes a listing for 24 hours. Refund requests for any purchase are handled by Apple.</p>
   <p>All purchases are processed by Apple and subject to Apple's Terms of Sale.</p>
 
   <h2>6. Prohibited Conduct</h2>
@@ -67,6 +74,6 @@
   <p>We may update these Terms from time to time. Continued use of Bidness after changes are posted constitutes your acceptance of the revised Terms.</p>
 
   <h2>12. Contact</h2>
-  <p>James Boyer<br />Waterloo, Ontario, Canada<br /><a href="mailto:support@bidness.app">support@bidness.app</a></p>
+  <p>James Boyer<br />Waterloo, Ontario, Canada<br /><a href="mailto:BidnessApp@outlook.com">BidnessApp@outlook.com</a></p>
 </body>
 </html>
