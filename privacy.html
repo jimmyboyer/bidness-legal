@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bidness – Privacy Policy</title>
   <style>
-    /* The app's palette: seashell page, black headings, charcoal text,
-       serif headings (New York on Apple devices). */
-    :root { color-scheme: light dark; --page: #FFF5EE; --ink: #000000; --text: #36454F; --muted: #5F6B73; --rule: #ECDCD0; --link: #000000; }
+    /* The app's palette (Theme.swift): white page, black headings, charcoal text, serif headings
+       (New York on Apple devices). Links stay black, underlined in the icon's box tan. */
+    :root { color-scheme: light dark; --page: #FFFFFF; --ink: #000000; --text: #3D3D3D; --muted: #666666; --rule: #E6E6E6; --link: #000000; --link-line: #D8B07F; }
     @media (prefers-color-scheme: dark) {
-      :root { --page: #000000; --ink: #FFF5EE; --text: #B7C2C9; --muted: #8A97A0; --rule: #232D33; --link: #89CFF0; }
+      :root { --page: #000000; --ink: #FFFFFF; --text: #C7C7C7; --muted: #8F8F8F; --rule: #2E2E2E; --link: #FFFFFF; --link-line: #D8B07F; }
     }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; background: var(--page); color: var(--ink); line-height: 1.7; }
     h1, h2 { font-family: ui-serif, "New York", Georgia, serif; color: var(--ink); }
     h1 { font-size: 2.2em; margin-bottom: 4px; }
     h2 { font-size: 1.3em; margin-top: 2em; padding-top: 1.2em; border-top: 1px solid var(--rule); }
     p, li { font-size: 1em; color: var(--text); }
-    a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a { color: var(--link); text-decoration-color: var(--link-line); text-decoration-thickness: 2px; text-underline-offset: 3px; }
     .updated { color: var(--muted); font-size: 0.9em; margin-bottom: 2em; display: block; }
   </style>
 </head>
